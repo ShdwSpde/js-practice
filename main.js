@@ -23,3 +23,24 @@ function isPalindrome(str) {
     alert('No')
   }
 }
+
+
+let drink = {}
+
+drink.brand = 'Gatorade'
+drink.flavor = 'red'
+drink.size = '32 oz'
+drink.hasAlcohol = 'false'
+drink.pour = function () {
+  console.log ("Now, its all over the floooorrrr!!!!")
+}
+drink.cheers = function () {
+  console.log (`I love ${this.brand}`)
+
+let order = {
+  entree: 'burger',
+  side: 'fries',
+  soda: '16 oz',
+  dessert: 'frosty'
+}
+  
